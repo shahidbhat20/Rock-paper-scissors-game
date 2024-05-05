@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">Rock Paper Scissors</div>
+    <div class="choices">
+        <div class="box"><div class="choice" id="rock"><i class="fa-regular fa-hand-back-fist"style="font-size: 2rem"></i></div></div>
+        <div class="box"><div class="choice" id="paper" style="background-color: purple;"><i class="fa-regular fa-hand"style="font-size: 2rem"></i></div></div>
+        <div class="box"><div class="choice" id="scissors" style="background-color: blue;"><i class="fa-regular fa-hand-scissors"style="font-size: 2rem"></i></div></div>
+    </div>
+
+    <div class="score-board">
+        <div class="score">
+            <p id="user-score">0</p>
+            <p>You</p>
+        </div>
+        <div class="score">
+            <p id="computer-score">0</p>
+            <p>computer</p>
+        </div>
+    </div>
+
+    <div class="msg-container">
+        <p id="msg">Play your move</p>
+    </div>
+
+    <h3>Your choice : <span  id="youChose"></span></h3>
+    <h3>Computer choice : <span id="compChose"></span></h3>
+    <!-- <h2 style="font-weight: bolder;background-color: black;color: white;width: 15rem; height: 50px;border-radius: 5px;text-align: center;position: absolute;left:520px;">Pick your move</h2> -->
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
